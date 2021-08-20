@@ -375,8 +375,8 @@ mark:hover {
   margin-top: 50px;
 }
 
-.work-img-mobile{
-  display: none;
+.work-img-mobile {
+ display: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -385,6 +385,7 @@ mark:hover {
   }
 
   .work-img-mobile {
+    visibility: visible;
     display: block;
     width: 100%;
     height: auto;
