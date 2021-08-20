@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Samantha Mac</title>
+  <meta name="description" content="Hi! I'm Samantha, a grade 10 student passionate about community involvement, design, and business. Check out my latest design projects here!">
+  <meta name="keywords" content="Eye Hope Canada, Eye Hope, Eye, Organization, Student-led, Samantha Mac, Bur Oak Secondary School, UX Design, UI Design, Design, Business">
+  <meta name="author" content="Samantha-Mac">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body onload="onLoad()" onresize="onResize()">
+
+  <!-- Start Nav Menu -->
+  <div class="nav-menu" id="nav-menu-id">
+    <div class="nav-menu-right">
+      <a href="index.html#homepage">Home</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About Me</a>
+      <a href="https://drive.google.com/file/d/13C2dEQyPW4IaACADpHZLbbExis1E9zEW/view?usp=sharing">Resume</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!-- End Nav Menu -->
+
+  <!-- Start Homepage -->
+  <section id="homepage">
+
+    <div class="cloud one"></div>
+    <div class="cloud two"></div>
+    <div class="cloud three"></div>
+    <div class="cloud four"></div>
+    <!-- Start Homepage Text -->
+    <div class="homepage-text">
+      <p class="tagline">hello! i'm a...</p>
+      <h1><span class="typed-text"></span><span class="cursor cursortyping"></span></h1>
+      <p class="bio">I'm Samantha Mac! A rising sophmore passionate about design, coding, and boba!</p>
+    </div>
+    <!-- End Homepage Text -->
+    <div class="rocket">
+      <img id="rocket-img" src="images/rocket.png">
+    </div>
+  </section>
+  <!-- End Homepage -->
+
+  <!-- Start My Work -->
+  <div id="work">
+    <h2 class="work-title">my work.</h2>
+
+    <div class="work-row">
+      <div class="work-col work-col-1">
+        <a href="designs.html"><img class="work-img" src="images/design-shot-work-img.png"></a>
+        <div class="work-text">
+          <h3 class="work-header">Design Shots</h3>
+          <h4 class="work-subheader">Ongoing</h3>
+            <hr class="work-hr" />
+            <p class="work-paragraph">
+              From posters to app mockups, there are hundreds of design mediums! These mini design projects are snapshots of how I use design on a daily basis; They act as practice exercises as I focus on different design skills depending on the
+              design.
+            </p>
+            <mark><a class="work-link" href="designs.html">See more →</a></mark>
+        </div>
+      </div>
+
+      <div class="work-col work-col-2">
+        <a href="https://www.eyehopecanada.com"><img class="work-img" src="images/ehc-work-img.png"></a>
+
+        <div class="work-text">
+          <h3 class="work-header">Eye Hope Canada</h3>
+          <h4 class="work-subheader">Ongoing</h3>
+            <hr class="work-hr" />
+            <p class="work-paragraph">
+              Eye Hope Canada is a student-led initiative dedicated to supporting families affected by childhood eye cancer. We recently publish an anthology, Resilience, where we worked with other cancer survivors, writers, and artists, and donated
+              the profits to Childhood Cancer Canada. Our community mural project will also be displayed at the Aaniin Community Center this September!
+            </p>
+            <mark><a class="work-link" href="https://www.eyehopecanada.com">Learn more →</a></mark>
+        </div>
+      </div>
+
+      <div class="work-col work-col-3">
+        <a href="oliveone.html"><img class="work-img" src="images/oliveone-work-img.png"></a>
+
+        <div class="work-text">
+          <h3 class="work-header">Simplifying the grocery shopping experience.</h3>
+          <h4 class="work-subheader">Mobile App | April 2021</h3>
+            <hr class="work-hr" />
+            <p class="work-paragraph">
+              OliveOne is the all-in-one grocery list mobile app where users can view live grocery store products and their updated prices, sales, availability, and store/ brand information, which they can then add to their grocery list. Users can additionally invite collaborators, have access to exclusive offers, apply and search for promo codes, and more!
+            </p>
+            <mark><a class="work-link" href="oliveone.html">Case study →</a></mark>
+        </div>
+      </div>
+
+      <div class="work-col work-col-4">
+        <img class="work-img" src="images/chatime-work-img.png">
+
+        <div class="work-text">
+          <h3 class="work-header">Streamlining Chatime's mobile ordering process.</h3>
+          <h4 class="work-subheader">Redesign | April 2021</h3>
+            <hr class="work-hr" />
+            <p class="work-paragraph">
+              I redesigned Chatime's mobile app with the goal of intergrating a payment feature into their existing point colletcion app.
+            </p>
+            <mark><a class="work-link" href="chatime.html">Case study →</a></mark>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End My Work -->
+
+  <!-- Start About Me -->
+  <section id="about">
+    <div class="about">
+      <div class="about-row">
+        <div class="about-col about-col-1">
+          <h2>nice to meet you!</h2>
+          <p class="about-text">Hi! My name is Samantha and I am a grade 10 student from Markham, Ontario. In my freetime, I love playing around on Figma and experimenting with different app designs.</p>
+          <p class="about-text">I'm currently the co-President of <a href="http://eyehopecanada.com/"><mark>Eye Hope Canada</mark></a>. I also have a <a href="https://www.youtube.com/channel/UCAGOxw2YW2TJu01nvqsPklA"><mark>YouTube channel</mark></a>
+            where I post study vlogs (although I'm not the most active YouTuber out there). To learn more about me, check out my <a href="https://drive.google.com/file/d/13C2dEQyPW4IaACADpHZLbbExis1E9zEW/view?usp=sharing"><mark>resume</mark></a>!</p>
+          <p class="about-text">I'm open to any design/ web development freelancing work or shadowing opportunities! You can reach me via <a href="mailto:samanthavaleriemac@gmail.com"><mark>email</mark></a> or <a
+              href="linkedin.com/in/samantha-mac-06b8811b0"><mark>LinkedIn</mark></a>.</p>
+        </div>
+        <div class="about-col about-col-2">
+          <img id="profile-pic" src="images/profile-pic.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Me -->
+
+  <!-- Start Footer -->
+  <section id="Footer">
+    <div class="footer">
+      <hr id=footer-hr>
+      <p class="footer-tag">👋 Let's chat! You can find me at...</p>
+      <div class="logo-outline-box">
+        <a link href="https://www.linkedin.com/in/samantha-mac-06b8811b0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BDlfeZE8RX6Hq0oYffa86w%3D%3D" target="blank"><img class="logo-outline"
+            src="images/linkedin-logo-outline.png" alt="linkedin-logo"></a>
+        <a link href="mailto:samanthavaleriemac@gmail.com"><img class="logo-outline" src="images/gmail-logo-outline.png" alt="logo-outline"></a>
+        <a link href="https://www.youtube.com/channel/UCAGOxw2YW2TJu01nvqsPklA" target="blank"><img class="logo-outline" src="images/youtube-logo-outline.jpeg" alt="youtube-logo"></a>
+      </div>
+      <div class="copyright-box">
+        <p class=copyright>this website is fueled by boba and lots of love! 💕 Samantha Mac, 2021</p>
+      </div>
+      <br>
+    </div>
+  </section>
+  <!-- End Footer -->
+
+  <script src="scripts/typeWritingHeader.js"></script>
+  <script src="scripts/nav-menu.js"></script>
+
+</body>
+
+</html>
