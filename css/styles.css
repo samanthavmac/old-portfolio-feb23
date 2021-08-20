@@ -334,7 +334,7 @@ mark:hover {
 #work {
   background-color: #5871F2;
   width: 100vw;
-  padding: 5% 10% 5% 10%;
+  padding: 7% 10% 10% 10%;
 }
 
 .work-title {
@@ -364,11 +364,39 @@ mark:hover {
   width: 100%;
 }
 
+/** Start Work Images **/
 .work-img {
   width: 100%;
-  margin-bottom: 3%;
-  margin-top: 5%;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
+
+.first-work-img {
+  margin-top: 50px;
+}
+
+.work-img-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .work-img {
+    display: none;
+  }
+
+  .work-img-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 70px;
+  }
+
+  .first-work-img {
+    margin-top: 40px;
+  }
+}
+/** End Work Images **/
 
 .work-hr {
   color: white;
