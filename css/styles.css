@@ -48,6 +48,7 @@ mark:hover {
   width: 100vw;
   padding: 0;
   margin-left: 8%;
+  overflow-x: hidden;
 }
 /** Start Nav Menu**/
 .nav-menu {
