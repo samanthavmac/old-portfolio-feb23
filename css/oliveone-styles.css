@@ -373,6 +373,10 @@ mark:hover {
 .try-prototype a{
   color: white;
 }
+
+.try-prototype a:hover{
+  opacity: 75%;
+}
 /** End Try Prototype **/
 
 /** Start Reflection **/
