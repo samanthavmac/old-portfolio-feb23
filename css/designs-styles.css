@@ -192,14 +192,10 @@ h2 {
 /** Start Footer **/
 .footer {
   text-align: center;
-  border-color: black;
   margin: auto;
-}
-
-#footer-hr {
-  color: grey;
-  width: 90%;
-  margin-top: 5em;
+  border-top: solid 1px #c7c7c7;
+  width: 80%;
+  margin-top: 45px;
 }
 
 .footer-tag {
