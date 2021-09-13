@@ -52,6 +52,9 @@ mark:hover {
 .nav-menu {
   overflow: hidden;
   background-color: rgba(255,255,255,0);
+  position: absolute;
+  top: 0;
+  right: 8px;
 }
 
 .nav-menu a {
@@ -501,22 +504,9 @@ mark:hover {
   margin-top: 45px;
 }
 
-.footer-tag {
-  color: grey;
-  margin-top: 35px;
-}
-
-.logo-outline {
-  height: 1.3em;
-  width: auto;
-  margin-right: 1em;
-  margin-bottom: 0.7em;
-  opacity: 50%;
-}
-
 .copyright {
   color: grey;
   font-size: 80%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 /** End Footer **/

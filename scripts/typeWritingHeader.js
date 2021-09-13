@@ -2,7 +2,7 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 
-const textArray = ["design", "coding", "k-pop", "business", "healthcare"];
+const textArray = ["design,", "coding,", "k-pop,", "business,", "healthcare,"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;

@@ -198,22 +198,9 @@ h2 {
   margin-top: 45px;
 }
 
-.footer-tag {
-  color: grey;
-  margin-top: 2em;
-}
-
-.logo-outline {
-  height: 1.3em;
-  width: auto;
-  margin-right: 1em;
-  margin-bottom: 0.7em;
-  opacity: 50%;
-}
-
 .copyright {
   color: grey;
   font-size: 80%;
-  margin-top: 1em;
+  margin-top: 20px;
 }
 /** End Footer **/

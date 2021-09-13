@@ -231,6 +231,7 @@ mark:hover {
   width: 100%;
   padding-bottom: ;
   margin: auto;
+  height: auto;
 }
 
 .banner-text-row:after {
@@ -241,7 +242,15 @@ mark:hover {
 
 .banner-text-col {
   float: left;
-  width: 17%;
+  width: 14%;
+  margin: auto;
+  margin-right: 3%;
+  vertical-align: top;
+}
+
+.banner-text-col-4 {
+  float: left;
+  width: 21%;
   margin: auto;
   margin-right: 3%;
   vertical-align: top;
@@ -261,12 +270,20 @@ mark:hover {
     float: left;
     height: 120px;
   }
+
+  .banner-text-col-4 {
+    margin-bottom: 12s%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .banner-text-col {
     width: 100%;
     margin-bottom: 4%;
+  }
+
+  .banner-text-col-4 {
+    margin-bottom: 8%;
   }
 }
 /** End Banner Bottom **/
@@ -403,22 +420,9 @@ mark:hover {
   margin-top: 45px;
 }
 
-.footer-tag {
-  color: grey;
-  margin-top: 2em;
-}
-
-.logo-outline {
-  height: 1.3em;
-  width: auto;
-  margin-right: 1em;
-  margin-bottom: 0.7em;
-  opacity: 50%;
-}
-
 .copyright {
   color: grey;
   font-size: 80%;
-  margin-top: 1em;
+  margin-top: 20px;
 }
 /** End Footer **/
