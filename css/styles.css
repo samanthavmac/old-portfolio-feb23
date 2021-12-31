@@ -56,6 +56,10 @@ button:hover {
   width: 100vw;
   overflow: hidden;
   height: 100vh;
+  background-image: url("../images/homepage-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /** Start Nav Menu**/
 .nav-menu {
@@ -161,7 +165,7 @@ button:hover {
 
 /** Start Homepage Text **/
 .homepage-box {
-  padding: 0 33% 0 10%;
+  padding: 0 38% 0 10%;
 }
 
 .homepage-title {
