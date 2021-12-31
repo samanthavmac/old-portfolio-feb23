@@ -17,7 +17,7 @@ h2 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 6%;
+  margin-bottom: 25px;
   font-size: 50px;
 }
 
@@ -33,12 +33,21 @@ h4 {
 }
 
 mark {
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(88, 113, 242, .1);
   color: #5871F2;
 }
 
-mark:hover {
-  background-color: #d6e7ff;
+button {
+    border: 1.5px solid white;
+    color: white;
+    background-color: rgba(255,255,255,0);
+    padding: 10px 25px;
+    margin-bottom: 80px;
+}
+
+button:hover {
+  border: 1.5px solid white;
+  background-color: rgba(255,255,255,.85);
   color: #5871F2;
 }
 
@@ -151,61 +160,33 @@ mark:hover {
 /** End Nav Menu **/
 
 /** Start Homepage Text **/
-.homepage-row {
-  width: 100%;
-  padding-bottom: ;
-  margin: auto;
-}
-
-.homepage-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.homepage-col {
-  float: left;
-}
-
-.homepage-col-1 {
-  width: 68%;
-  height: 100vh;
-  background-image: url("../images/homepage-background.png");
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-clip: border-box;
-  overflow: hidden;
-}
-
-.homepage-col-2 {
-  width: 32%;
-  padding: 12% 6% 0 6%;
+.homepage-box {
+  padding: 0 33% 0 10%;
 }
 
 .homepage-title {
+  margin-top: 28%;
   color: #5871F2;
-  font-size: 36px;
-  line-height: 45px;
+  font-size: 45px;
+  line-height: inherit;
+  padding: 10px 0 10px 0;
 }
 
 .homepage-bio {
+  font-size: 18px;
+  line-height: inherit;
 }
 
-@media screen and (max-width: 767px) {
-  .homepage-col-1 {
-    width: 100%;
-    height: 30vh;
-    float: none;
-  }
-
-  .homepage-col-2 {
-    width: 100%;
-    float: none;
-    height: 70vh;
-    padding-top: 10%;
-  }
+.homepage-box button{
+  border-color: #5871F2;
+  color: #5871F2;
+  margin-top: 15px;
 }
+
+.homepage-box button:hover{
+  background-color: rgba(88, 113, 242, .1);
+}
+
 /** Start Typing Text **/
 .typed-text {
   color: #58b2f2;
@@ -214,9 +195,10 @@ mark:hover {
 .cursor {
   display: inline-block;
   width: 3px;
-  margin-left: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
   animation: blink 1s infinite;
-  height: 36px;
+  height: 45px;
 }
 
 .cursortyping {
@@ -329,7 +311,7 @@ mark:hover {
 #work {
   background-color: #5871F2;
   width: 100vw;
-  padding: 7% 10% 10% 10%;
+  padding: 5% 10% 7% 10%;
 }
 
 .work-title {
@@ -344,7 +326,7 @@ mark:hover {
 
 .work-row {
   width: 100%;
-  padding-bottom: ;
+  height: auto;
   margin: auto;
 }
 
@@ -362,12 +344,7 @@ mark:hover {
 /** Start Work Images **/
 .work-img {
   width: 100%;
-  margin-bottom: 50px;
-  margin-top: 100px;
-}
-
-.first-work-img {
-  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .work-img-mobile {
@@ -385,44 +362,110 @@ mark:hover {
     width: 100%;
     height: auto;
     margin-bottom: 30px;
-    margin-top: 70px;
-  }
-
-  .first-work-img {
-    margin-top: 40px;
   }
 }
 /** End Work Images **/
 
-.work-hr {
+.work-col hr{
   color: white;
   opacity: 35%;
 }
 
-.work-paragraph {
+.work-col p{
   color: white;
-  margin-bottom: 3%;
+  margin-bottom: 25px;
+}
+/** End My Work **/
+
+/** Start About **/
+#about {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.work-link {
-  color: white;
-  text-decoration: none;
-  opacity: 70%;
+.about-row {
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #5871F2;
+  border-radius: 20px;
+}
+
+.about-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-col {
+  float: left;
+  width: 20%;
+  padding: 0 40px 0 0;
+  height: 100px;
+}
+
+.about-row h2{
+  margin-bottom: 35px;
+  background-image: none;
+  background-color: #5871F2;
+  font-size: 28px;
+  opacity: 65%;
+}
+
+.about-row h3{
+  color: grey;
   font-size: 18px;
 }
 
-.work-link:hover {
+.about-row p{
   color: #5871F2;
-  text-decoration: none;
-  opacity: 100%;
+  font-size: 20px;
+  line-height: normal;
 }
-/** End My Work **/
+
+.about-row a{
+  color: #5871F2;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-col {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-col {
+    width: 100%;
+  }
+}
+/** End About **/
 
 /** Start Back To Home **/
 .back-to-home {
   text-align: center;
-  margin-top: 3%;
-  margin-bottom: 3%
+  margin-top: 65px;
+}
+
+.back-to-home a{
+  color: #5871F2;
+  text-decoration: none;
+}
+
+.back-to-home p{
+  color: #5871F2;
+}
+
+.back-to-home a:hover{
+  color: #3349bd;
+}
+
+.back-to-home hr{
+  color: #5d648c;
+  width: 20%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /** End Back To Home **/
 
@@ -432,12 +475,12 @@ mark:hover {
   margin: auto;
   border-top: solid 1px #c7c7c7;
   width: 80%;
-  margin-top: 45px;
+  margin-top: 50px;
 }
 
 .copyright {
   color: grey;
-  font-size: 80%;
+  font-size: 13px;
   margin-top: 20px;
 }
 /** End Footer **/
