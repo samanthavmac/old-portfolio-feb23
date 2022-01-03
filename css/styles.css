@@ -190,15 +190,9 @@ button:hover {
   background-color: rgba(88, 113, 242, .1);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .homepage-box {
-    padding: 23% 15% 0 10%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .homepage-box {
-    padding: 10% 10% 0 10%;
+    padding: 10% 15% 0 10%;
   }
 }
 
