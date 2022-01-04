@@ -260,7 +260,6 @@ button:hover {
 
 .banner-text-col-4 {
   width: 21%;
-  vertical-align: top;
 }
 
 .banner-text-col h4{
@@ -274,18 +273,13 @@ button:hover {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .banner-text-col {
     width: 40%;
-    height: 120px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .banner-text-col {
     width: 100%;
-    margin-bottom: 4%;
-  }
-
-  .banner-text-col-4 {
-    margin-bottom: 20%;
+    margin-bottom: 20px;
   }
 }
 /** End Banner Bottom **/
@@ -349,7 +343,7 @@ button:hover {
 @media screen and (max-width: 767px) {
   .steps-col {
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
   }
 }
 /** End Steps **/
@@ -361,8 +355,8 @@ button:hover {
   font-size: 50px;
   text-align: center;
   padding: 10%;
-  margin-top: 6%;
-  margin-bottom: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .try-prototype a{

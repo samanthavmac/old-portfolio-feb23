@@ -274,11 +274,7 @@ button:hover {
 @media screen and (max-width: 767px) {
   .banner-text-col {
     width: 100%;
-    margin-bottom: 4%;
-  }
-
-  .banner-text-col-4 {
-    margin-bottom: 20%;
+    margin-bottom: 20px;
   }
 }
 /** End Banner Bottom **/
@@ -355,8 +351,8 @@ button:hover {
   font-size: 50px;
   text-align: center;
   padding: 10%;
-  margin-top: 6%;
-  margin-bottom: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .try-prototype a{
