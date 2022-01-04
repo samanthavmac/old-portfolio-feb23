@@ -165,7 +165,7 @@ button:hover {
 
 /** Start Homepage Text **/
 .homepage-box {
-  padding: 28% 38% 0 10%;
+  padding: 15% 38% 0 10%;
 }
 
 .homepage-title {
@@ -192,7 +192,7 @@ button:hover {
 
 @media screen and (max-width: 1024px) {
   .homepage-box {
-    padding: 6% 15% 0 10%;
+    padding: 5% 15% 0 10%;
   }
 }
 
