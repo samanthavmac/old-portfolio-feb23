@@ -207,6 +207,7 @@ button:hover {
 
   #banner-cover-header {
     padding-top: 0%;
+    font-size: 50px;
   }
 }
 
@@ -227,7 +228,7 @@ button:hover {
 
   #banner-cover-header {
     padding-top: 0%;
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 /** End Banner Top **/
@@ -260,7 +261,6 @@ button:hover {
 
 .banner-text-col-4 {
   width: 21%;
-  vertical-align: top;
 }
 
 .banner-text-col h4{
@@ -274,18 +274,18 @@ button:hover {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .banner-text-col {
     width: 40%;
-    height: 120px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .banner-text-col {
     width: 100%;
-    margin-bottom: 4%;
+    margin-bottom: 20px;
   }
 
-  .banner-text-col-4 {
-    margin-bottom: 20%;
+  .banner-text-col-5 {
+    width: 100%;
+    margin-bottom: 60px;
   }
 }
 /** End Banner Bottom **/
@@ -349,7 +349,7 @@ button:hover {
 @media screen and (max-width: 767px) {
   .steps-col {
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 20px;
   }
 }
 /** End Steps **/
@@ -361,8 +361,8 @@ button:hover {
   font-size: 50px;
   text-align: center;
   padding: 10%;
-  margin-top: 6%;
-  margin-bottom: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .try-prototype a{

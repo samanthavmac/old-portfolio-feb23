@@ -179,6 +179,10 @@ button:hover {
   #biography {
     width: 80%;
   }
+
+  #biography-collage {
+    width: 100%;
+}
 }
 /** End Biography **/
 

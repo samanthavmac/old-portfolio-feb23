@@ -56,6 +56,10 @@ button:hover {
   width: 100vw;
   overflow: hidden;
   height: 100vh;
+  background-image: url("../images/homepage-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /** Start Nav Menu**/
 .nav-menu {
@@ -161,11 +165,10 @@ button:hover {
 
 /** Start Homepage Text **/
 .homepage-box {
-  padding: 0 33% 0 10%;
+  padding: 15% 38% 0 10%;
 }
 
 .homepage-title {
-  margin-top: 28%;
   color: #5871F2;
   font-size: 45px;
   line-height: inherit;
@@ -185,6 +188,12 @@ button:hover {
 
 .homepage-box button:hover{
   background-color: rgba(88, 113, 242, .1);
+}
+
+@media screen and (max-width: 1024px) {
+  .homepage-box {
+    padding: 5% 15% 0 10%;
+  }
 }
 
 /** Start Typing Text **/
@@ -402,7 +411,7 @@ button:hover {
   float: left;
   width: 20%;
   padding: 0 40px 0 0;
-  height: 100px;
+  height: 120px;
 }
 
 .about-row h2{
