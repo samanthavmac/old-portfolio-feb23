@@ -192,7 +192,13 @@ button:hover {
 
 @media screen and (max-width: 1024px) {
   .homepage-box {
-    padding: 5% 15% 0 10%;
+    padding: 20% 15% 0 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .homepage-box {
+    padding: 25% 15% 0 10%;
   }
 }
 
