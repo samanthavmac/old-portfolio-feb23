@@ -165,7 +165,7 @@ button:hover {
 
 /** Start Homepage Text **/
 .homepage-box {
-  padding: 15% 38% 0 10%;
+  padding: 15% 32% 0 10%;
 }
 
 .homepage-title {
@@ -176,9 +176,17 @@ button:hover {
 }
 
 .homepage-bio {
-  font-size: 18px;
+  font-size: 20px;
   line-height: inherit;
+  font-weight: 500;
 }
+
+.homepage-bio-2 {
+  font-size: 16px;
+  line-height: inherit;
+  margin-top: -7px;
+}
+
 
 .homepage-box button{
   border-color: #5871F2;
